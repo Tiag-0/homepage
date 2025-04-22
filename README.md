@@ -1,10 +1,8 @@
-Como criar um Script para instalação do Apache2 + Subir Página Html
-
+# Como criar um Script para instalação do Apache2 + Subir Página Html ( Ubuntu )
 
 
 # Preview
-![Como-Criar-um-SITE-Com-HTML-e-CSS-na-prática](/Como-Criar-um-SITE-Com-HTML-e-CSS-na-prática.png)
-
+(https://files.tecnoblog.net/wp-content/uploads/2022/04/ubuntu-22-04-lts.jpg)
 
 Para subir uma página em html através do Ubuntu, é necessário primeiramente criar um diretório em que ele contenha os arquivos a serem configurados, neste caso utilizaremos este repositório como exemplo, com o mesmo sendo incluso no diretório criado. 
 
