@@ -9,14 +9,14 @@ Para subir uma página em html através do Ubuntu, é necessário primeiramente 
 
 Primeiro iremos criar um arquivo que será chamado de " instalar_apache.sh", em seguida iremos utilizar os seguintes comandos:
 
-bash
-sudo nano instalar_apache.sh
-bash
-#!/bin/bash
-sudo apt update ( atualizar a lista de pacotes )
-sudo apt install -y apache2 ( instalar o apache )
-sudo mkdir -p /var/www/homepage ( criar uma pasta para ser utilizada como diretório )
-sudo git clone + link do repositório ( clonar repositório )
+# bash
+# sudo nano instalar_apache.sh
+# bash
+# !/bin/bash
+# sudo apt update ( atualizar a lista de pacotes )
+# sudo apt install -y apache2 ( instalar o apache )
+# sudo mkdir -p /var/www/homepage ( criar uma pasta para ser utilizada como diretório )
+# sudo git clone + link do repositório ( clonar repositório )
 
 Em seguida iremos configurar o Apache2 para usar o diretório criado.
 
