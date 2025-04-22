@@ -20,7 +20,8 @@ Primeiro iremos criar um arquivo que será chamado de " instalar_apache.sh", em 
 
 Em seguida iremos configurar o Apache2 para usar o diretório criado.
 
- ```bash<VirtualHost *:80>
+ ```bash
+<VirtualHost *:80>
   ServerAdmin amind@homepage
   ServerName homepage
   ServerAlias www.homepage
@@ -28,7 +29,8 @@ Em seguida iremos configurar o Apache2 para usar o diretório criado.
   <Directory /var/www/homepage>
   ErrorLog /error.log
   CustomLog /access.log combined
-</VirtualHost>```
+</VirtualHost>
+```
 
 
 Em seguida, configurar o ip de domínio, no caso iremos utilizar 127.0.0.1
