@@ -20,7 +20,7 @@ Primeiro iremos criar um arquivo que será chamado de " instalar_apache.sh", em 
 
 Em seguida iremos configurar o Apache2 para usar o diretório criado.
 
-# <VirtualHost *:80>
+ <VirtualHost *:80>
   ServerAdmin amind@homepage
   ServerName homepage
   ServerAlias www.homepage
@@ -29,13 +29,13 @@ Em seguida iremos configurar o Apache2 para usar o diretório criado.
   ErrorLog /error.log
   CustomLog /access.log combined
 </VirtualHost>
-#
+
 
 Em seguida, configurar o ip de domínio, no caso iremos utilizar 127.0.0.1
 
 # sudo a2ensite homepage.conf ( ativar o site )
 # sudo service apache2 restar ( reiniciar o serviço Apache2 )
-sudo chmod +x install apache.sh ( Dar permissão ao script )
-sudo ./install apache.sh
+# sudo chmod +x install apache.sh ( Dar permissão ao script )
+# sudo ./install apache.sh
 
 
