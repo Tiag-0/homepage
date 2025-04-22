@@ -28,7 +28,7 @@ Em seguida iremos configurar o Apache2 para usar o diretório criado.
   ServerName homepage
   ServerAlias www.homepage
   DocumentRoot /var/www/homepage/public_html
-  <Directory /var/www/meusite>
+  <Directory /var/www/homepage>
   ErrorLog /error.log
   CustomLog /access.log combined
 </VirtualHost>
