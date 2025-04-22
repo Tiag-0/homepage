@@ -2,7 +2,8 @@
 
 
 # Preview
-https://files.tecnoblog.net/wp-content/uploads/2022/04/ubuntu-22-04-lts.jpg
+
+![Ubuntu](https://github.com/Tiag-0/homepage/blob/main/ubuntu.jpg?raw=true)
 
 Para subir uma página em html através do Ubuntu, é necessário primeiramente criar um diretório em que ele contenha os arquivos a serem configurados, neste caso utilizaremos este repositório como exemplo, com o mesmo sendo incluso no diretório criado. 
 
